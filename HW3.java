@@ -14,7 +14,7 @@ class HW3 {
     public static void gameNumber () {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ваша задача угадать число от 0 до 9");
-        int range = 10;
+        int range = 9;
         int number = (int)(Math.random() * range);
         int  attempt = 3;
         while (attempt !=0 ) {
